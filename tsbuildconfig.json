@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "module": "es6",                
+      "moduleResolution": "node",
+      "incremental": true,
+      "esModuleInterop": true,
+      "target": "es6",                
+      "sourceMap": true,
+      "sourceRoot": "./src/",
+      "noImplicitReturns": true,
+      "resolveJsonModule": true,
+      "outDir": "lib",
+      "rootDirs": [
+        "./src/",
+        "vendor"
+      ],
+      "allowJs": true,
+      "checkJs": false
+    },
+    "include": [
+      "src/**/*"
+    ],
+    "exclude": ["node_modules", "packages", "__mocks__", "__tests__"]
+  }

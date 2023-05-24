@@ -1,0 +1,39 @@
+{
+    "name": "pano-viewer-test",
+    "version": "0.0.1",
+    "description": "A viewport for panoramas",
+    "main": "lib",
+    "files": [
+        "lib",
+        "vendor"
+    ],
+    "scripts": {
+        "start": "node_modules/.bin/webpack-dev-server --config webpack.dev.js --mode development --host 0.0.0.0",
+        "start-ssl": "node_modules/.bin/webpack-dev-server --config webpack.dev.js --mode development --host 0.0.0.0 --https"
+    },
+    "keywords": [
+        "pano",
+        "viewer"
+    ],
+    "sideEffects": [
+        "*.scss"
+    ],
+    "author": "Travis Vroman",
+    "license": "ISC",
+    "devDependencies": {
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^11.0.0",
+        "html-loader": "^4.2.0",
+        "html-webpack-harddisk-plugin": "^2.0.0",
+        "html-webpack-plugin": "^5.5.0",
+        "ts-loader": "^9.4.1",
+        "typescript": "^4.8.4",
+        "webpack": "^5.74.0",
+        "webpack-bundle-analyzer": "^4.6.1",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1"
+    },
+    "dependencies": {
+        "loglevel": "^1.8.0"
+    }
+}
