@@ -8,6 +8,9 @@ node_modules/
 dist/
 lib/
 webglpackage/
+working/
+notworking/
+*.zip
 
 # Compiled Java class files
 *.class

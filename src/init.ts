@@ -1,9 +1,7 @@
-import log from 'loglevel';
 import { PanoViewport } from './PanoViewport';
 
 var viewport: PanoViewport;
 export function onDocumentLoaded() {
-    log.enableAll();
     // Create a new viewport object.
     viewport = new PanoViewport({
         vrEnabled: true,
